@@ -19,7 +19,7 @@ const projects = [
     projectId: 3,
     projectName: 'Fox Hole Villa',
     projectDescription: 'Train your brain in a fun way to learn web development programs by helping Foxy the Fixer fix up the town messed up by evil doers.',
-    projectImages: ['foxHoleVilla.png'],
+    projectImages: ['foxholeVilla.png'],
     githubLink: 'https://github.com/kshep425/JKReady',
     herokuLink: 'https://rabbit-the-fixer.herokuapp.com/',
   },
