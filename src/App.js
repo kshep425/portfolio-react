@@ -5,6 +5,8 @@ import NavbarDiv from './Navbar';
 import Resume from './Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Portfolio from './Portfolio';
+import projects from './portfolios';
+import Footer from './Footer'
 
 /**
  * @returns {div} main div for portfolio
@@ -20,7 +22,8 @@ function App() {
         </p>
       </header>
       <Resume />
-      <Portfolio />
+      <Portfolio projects={projects}/>
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,7 @@ import './Resume.css';
  */
 function Resume() {
   return (
-    <div className="text-center mx-2">
+    <div id='resume' className="text-center mx-2">
       <h2 className="d-block">
         <a id="resume_link" className="resume link" href="resume/resume.pdf" target="_blank">
           Keisha Shepherd's Resume
