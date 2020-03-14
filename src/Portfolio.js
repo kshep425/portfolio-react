@@ -30,7 +30,10 @@ function Portfolio(props) {
         ))}
         </Carousel>
       ) : (<Card.Img src={'./assets/images/portfolio/' + p.projectImages[0]} width='100%'></Card.Img>)}
-
+      <Card.Footer>
+        <Card.Link href={p.heroku}><button className="btn btn-success">Open App</button></Card.Link>
+        <Card.Link href={p.githubLink}>Github Documenation</Card.Link>
+      </Card.Footer>
     </Card>
   ));
 
